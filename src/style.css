@@ -1,0 +1,39 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    background-color: tomato;
+    color: white;
+}
+
+button {
+    background-color: aqua;
+    padding: 10px;
+    font-size: larger;
+    margin-bottom: 2px;
+    color: black;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px
+}
+
+.grid .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    font-size: 45px;
+}
